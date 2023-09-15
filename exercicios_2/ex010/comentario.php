@@ -28,12 +28,12 @@ if($conexao->query($valores)){
     echo "Erro ao inserir";
 }
 
-$consulta = "SELECT * FROM comentario WHERE preco <= 50";
+$consulta = "SELECT * FROM comentario";
 $resultado = $conexao->query($consulta);
 
 while ($lista = $resultado->fetch_assoc()) {
-echo $lista['nome'] . PHP_EOL;
-echo $lista['preco'] . PHP_EOL;
+echo $lista['comentario'];
+
 }
 
 
