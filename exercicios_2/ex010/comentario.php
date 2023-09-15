@@ -19,7 +19,7 @@ if($conexao->query($criacao_tb)){
 }
 */
 
-$valores = "INSERT INTO comentario (comentario)
+$valores = "INSERT INTO comentario 
 VALUE ('$comentario')";
 
 if($conexao->query($valores)){
