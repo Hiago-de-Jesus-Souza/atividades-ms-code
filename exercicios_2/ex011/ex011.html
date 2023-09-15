@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cronometro</title>
+</head>
+<body>
+    <main>
+        <div class="texto">
+            <h1>O tempo está acabando!</h1>
+            <p>Você vai ficar de fora?</p>
+        </div>
+
+        <div class="caixa_numeros">
+            <!-- dias -->
+            <div class="container">
+                <p class="numeros" id="dia">00</p>
+                <p>dias</p>
+            </div>
+            <!-- horas -->
+            <div class="container">
+                <p class="numeros" id="hr">00</p>
+                <p>horas</p>
+            </div>
+            <!-- minutos -->
+            <div class="container">
+                <p class="numeros" id="min">00</p>
+                <p>minutos</p>
+            </div>
+            <!-- segundos -->
+            <div class="container">
+                <p class="numeros" id="seg" >00</p>
+                <p>segundos</p>
+            </div>
+
+        </div>
+
+        <div class="formulario">
+            <form action="" method="post">
+                <label for="data">Defina uma data</label>
+                <input type="date" name="data" id="data">
+            </form>
+            <button class="botao" id="btn-comecar">Começar</button>
+        </div>
+
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
